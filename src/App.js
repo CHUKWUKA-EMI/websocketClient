@@ -8,9 +8,7 @@ const { Search } = Input;
 const { Text } = Typography;
 const { Meta } = Card;
 
-const client = new w3cwebsocket(
-	"https://mywebsocketserver.herokuapp.com/".replace(/^https/, "ws")
-);
+const client = new w3cwebsocket("wss://mywebsocketserver.herokuapp.com/");
 
 function App() {
 	const [username, setUsername] = React.useState("");
