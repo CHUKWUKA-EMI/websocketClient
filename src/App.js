@@ -49,7 +49,7 @@ function App() {
 		<div className="main">
 			<div className="title">
 				<Text type="secondary" style={{ fontSize: "36px" }}>
-					WebSocket Chat
+					Emi's Chat App
 				</Text>
 			</div>
 
