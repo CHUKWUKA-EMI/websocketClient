@@ -34,7 +34,6 @@ function App() {
 		client.onmessage = (message) => {
 			const messageFromServer = JSON.parse(message.data);
 
-			console.log("Got a reply from server", messageFromServer);
 			if (messageFromServer.type === "message") {
 				setMessages((messages) => {
 					return [
